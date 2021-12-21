@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    min-height: 600px;
+    height: 80%;
+    width: 100%;
+    background-color: #724e91;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    color: white;
+    position: relative;
+    padding-bottom: 10px;
+    top: -15%;
+    font-size: 2.5rem;
+}
+#newtask{
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+}
+#newtaskinp{
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: solid 1px ;
+    background: white;
+    width: 100%;
+}
+#addtask{
+    border: none;
+    background: #451f55;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 4px;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+#addtask:hover{
+    cursor: pointer;
+    background: #4f2663;
+}
+#list-items{
+    margin-top: 10px;
+    list-style: none;
+
+}
+footer p{
+    display: block;
+}
+#list{
+    position: relative;
+    left: -40px;
+    margin-top: 10px;
+    width: 35%;
+    background: #ffffff;
+}
